@@ -7,7 +7,7 @@ Instead of just a single integer as heap element, the heap element is represente
 The Minimum Binary Heap (Min BHEAP) class will provide these operations:
 
 insert:
-    ```
+       
       in: an EntryPair object, containing the priority and string, (assume no duplicate priorities will be inserted)
           
       return: void
@@ -17,9 +17,9 @@ insert:
             - ordering is done based on integer priorities in the elements that are inserted; ignore string for ordering
             - there are no duplicate priorities
             - size is incremented by 1, and return
-    ```
+      
 delMin:
-    ```
+      ```
       in: nothing
       
       return: void
