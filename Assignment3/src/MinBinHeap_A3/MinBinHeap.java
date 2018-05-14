@@ -76,6 +76,7 @@ public class MinBinHeap implements Heap_Interface {
 
 	@Override
 	public void delMin() {
+		// deletes minimum element (the root) and calls BubbleDown to correct Min BHEAP structure
 		if (size == 0) {
 			return;
 		}
@@ -87,6 +88,7 @@ public class MinBinHeap implements Heap_Interface {
 
 	@Override
 	public EntryPair getMin() {
+		// gets minimum element (the root)
 		if (size == 0) {
 			return null;
 		} else {
